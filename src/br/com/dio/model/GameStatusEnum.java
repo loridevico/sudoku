@@ -6,7 +6,7 @@ public enum GameStatusEnum {
     INCOMPLETE("incompleto"),
     COMPLETE("completo");
 
-    private String label; // Rótulo para o status
+    private final String label; // Rótulo para o status
 
     GameStatusEnum(final String label){
         this.label = label;
